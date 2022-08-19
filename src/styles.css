@@ -69,6 +69,9 @@ body {
   opacity: 0.3;
 }
  
+#slide-arrow-prev {
+    margin-right: 16px;
+}
 .discover_btn {
     display: none;
 }
@@ -124,11 +127,11 @@ body {
 
   @font-face {
     font-family: "MarrSans";
-    src: local("MarrSans"),  url("../assets/fonts/MarrSans-Semibold-Web.woff2") format('truetype'),
+    src: local("MarrSans"),  url("C:/Users/Matthieu/Desktop/test-lemonde/assets/fonts/MarrSans-Semibold-Web.woff2") format('truetype'),
    }
 
    @font-face {
     font-family: "TheAntiquaB";
-    src: local("TheAntiquaB"), url("../assets/fonts/TheAntiquaB-LeMonde.woff2") format('truetype'),
+    src: local("TheAntiquaB"), url("C:/Users/Matthieu/Desktop/test-lemonde/assets/fonts/TheAntiquaB-LeMonde.woff2") format('truetype'),
    }
   
