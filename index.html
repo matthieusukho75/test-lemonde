@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Services Le Monde</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="src/styles.css" />
+
+</head>
+
+<body>
+    <main role="main" class="main">
+        <div>
+            <div class="header">
+                <h5>Services Le Monde</h5>
+
+                <div class="arrow_container">
+                    <button class="btn_arrow_inactive" id="slide-arrow-prev"><img class="arrow_left"
+                            src="assets/imgs/arrow.svg" alt="" /></button>
+                    <button class="btn_arrow" id="slide-arrow-next"><img src="assets/imgs/arrow.svg" alt="" /></button>
+                </div>
+
+                <button class="discover_btn">Découvrir</button>
+
+            </div>
+            <div class="carousel" id="carousel">
+                <div class="item_carousel">
+                    <img src="assets/imgs/vignette_atelier.png" alt="" width="75px" height="75px" />
+                    <p class="text_item">Cours en ligne, cours du soir, atelier: developpez vos compétences et
+                        connaissances</p>
+                </div>
+                <div class="item_carousel">
+                    <img src="assets/imgs/vignette_memorable.png" alt="" width="75px" height="75px" />
+                    <p class="text_item">Testez vos connaissances et votre capacité de mémorisation avec la rédaction du
+                        monde</p>
+                </div>
+                <div class="item_carousel">
+                    <img src="assets/imgs/vignette_jeux.png" alt="" width="75px" height="75px" />
+                    <p class="text_item">Mots croisés, sudoku, mots trouvés... jouez avec nous</p>
+                </div>
+
+                <button class="show_more_btn" id="show_more_btn">Voir plus</button>
+
+                <div class="item_carousel hidden" id="first_hidded_item">
+                    <img src="assets/imgs/vignette_guides-d-achat.png" alt="" width="75px" height="75px" />
+                    <p class="text_item">Gagnez du temps dans vos recherches avec notre sélection des meilleures
+                        produits selon votre
+                        besoin</p>
+                </div>
+
+                <div class="item_carousel hidden" id="second_hidded_item">
+                    <img src="assets/imgs/vignette_boutique.png" alt="" width="75px" height="75px" />
+                    <p class="text_item">Retrouvez nos derniers hors-séries, livres et Unes du monde</p>
+                </div>
+            </div>
+        </div>
+
+    </main>
+</body>
+<script src="src/index.js"></script>
+
+</html>

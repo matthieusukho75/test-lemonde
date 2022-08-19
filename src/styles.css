@@ -1,0 +1,130 @@
+body {
+    font-family: sans-serif;
+  }
+  .main {
+    margin: auto;
+    box-sizing: border-box;
+    padding: 20px;
+    border: 1px solid #ccc;
+  }
+
+  p {
+      margin: 0;
+   }
+
+  * {
+    font-family : "MarrSans";
+    font-size : 15px;
+    font-weight : 500;
+  }
+  .carousel {
+      display: flex;
+      position: relative;
+      overflow: hidden;
+      scroll-behavior: smooth;
+  }
+
+  .item_carousel  {
+    display: flex;
+    align-items: flex-start;
+    flex: 0 0 290px;
+  }
+
+  .text_item {
+      padding-left: 8px;
+      max-width: 180px;
+  }
+
+  .header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 24px 0;
+  }
+
+  h5 {
+    font-family : "TheAntiquaB";
+    font-size : 22px;
+    font-weight : 800;
+    margin: 0;
+  }
+
+.arrow_left {
+    transform: rotate(180deg);
+}
+
+.btn_arrow {
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
+  border-color: transparent;
+  cursor: pointer;
+}
+
+.btn_arrow_inactive {
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
+  border: 1px solid black;
+  opacity: 0.3;
+}
+ 
+.discover_btn {
+    display: none;
+}
+
+.show_more_btn {
+    display: none;
+}
+
+  @media (max-width: 768px) {
+    .main {
+      max-width: 664px;
+    }
+    .carousel {
+        flex-direction: column;
+    }
+    .arrow_container {
+        display: none;
+    }
+    .discover_btn {
+        display: block;
+        border-radius: 16px;
+        padding: 6px;
+        border: 1px solid #ddd;
+        background-color: white;
+    }
+    .item_carousel  {
+        flex: 0 0 90px;
+    }
+    .header {
+        border-top: 2px solid black;
+    }
+    .show_more_btn {
+        display: block;
+        border-radius: 8px;
+        padding: 12px;
+        border: 1px solid #ddd;
+        background-color: white;
+    }
+
+    .hidden {
+        display: none;
+    }
+  }
+  @media (min-width: 1024px) {
+    .main {
+      max-width: 1000px;
+    }
+  }
+
+  @font-face {
+    font-family: "MarrSans";
+    src: local("MarrSans"),  url("../assets/fonts/MarrSans-Semibold-Web.woff2") format('truetype'),
+   }
+
+   @font-face {
+    font-family: "TheAntiquaB";
+    src: local("TheAntiquaB"), url("../assets/fonts/TheAntiquaB-LeMonde.woff2") format('truetype'),
+   }
+  
